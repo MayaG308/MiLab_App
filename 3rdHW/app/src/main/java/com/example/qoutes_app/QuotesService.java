@@ -35,6 +35,7 @@ public class QuotesService extends Service {
 
         PendingIntent pendingIntent = PendingIntent.getBroadcast(this, 0, newIntent,0);
 
+        //creating the alarmManager
         AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
         alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, currTime+timeForCalc, timeForCalc, pendingIntent);
 
