@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:background="#ffffff"></RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/imageview"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="100dp">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:id="@+id/imageview1"
+                android:src="@drawable/tedhaveyou"></ImageView>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="232dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@id/imageview"
+        android:text="Have you met Ted?"
+        android:textColor="@color/black"
+        android:textSize="20sp"></TextView>
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/imageview"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="-19dp"
+        android:layout_toRightOf="@id/imageview"
+        android:text="-------------------------------------------------------"
+        android:textColor="#CDC7C7"
+        android:textSize="15sp"></TextView>
+</RelativeLayout>
