@@ -1,0 +1,12 @@
+com/example/qoutes_app/BuildConfig.java
+ com.example.qoutes_app.BuildConfig
+com/example/qoutes_app/QuotesService.java
+ com.example.qoutes_app.QuotesService
+com/example/qoutes_app/MainActivity.java
+ com.example.qoutes_app.MainActivity
+ com.example.qoutes_app.MainActivity$1
+ com.example.qoutes_app.MainActivity$2
+com/example/qoutes_app/QuotesBroadcastReceiver.java
+ com.example.qoutes_app.QuotesBroadcastReceiver
+com/example/qoutes_app/Quotes.java
+ com.example.qoutes_app.Quotes
